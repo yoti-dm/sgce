@@ -1,32 +1,54 @@
 % Define all strings as new macros instead of hardcoding them in the
 % TeX files. This then allows us to add captions for multilanguage support.
-\newcommand\armorclassname{Armor Class}
-\newcommand\hitpointsname{Hit Points}
-\newcommand\speedname{Speed}
+\newcommand\armorclass{AC}
+\newcommand\hitpoints{HP}
+\newcommand\speed{Speed}
 
-\newcommand\strstatname{STR}
-\newcommand\dexstatname{DEX}
-\newcommand\constatname{CON}
-\newcommand\intstatname{INT}
-\newcommand\wisstatname{WIS}
-\newcommand\chastatname{CHA}
+\newcommand\skills{Skills}
+\newcommand\dimm{Damage Immunities}
+\newcommand\dvul{Damage Vulnerabilities}
+\newcommand\dres{Damage Resistances}
+\newcommand\cimm{Condition Immunities}
+\newcommand\saves{Saving Throws}
+\newcommand\senses{Senses}
+\newcommand\languages{Languages}
+\newcommand\challenge{Challenge}
 
-\newcommand\skillsname{Skills}
-\newcommand\dimmname{Damage Immunities}
-\newcommand\dvulname{Damage Vulnerabilities}
-\newcommand\dresname{Damage Resistances}
-\newcommand\cimmname{Condition Immunities}
-\newcommand\savesname{Saving Throws}
-\newcommand\sensesname{Senses}
-\newcommand\languagesname{Languages}
-\newcommand\challengename{Challenge}
+% Add command for poison point
+\newcommand{\poison}{$\bullet$}
 
+% stats
+\newcommand{\strength}{STR}
+\newcommand{\dexterity}{DEX}
+\newcommand{\constitution}{CON}
+\newcommand{\intelligence}{INT}
+\newcommand{\wisdom}{WIS}
+\newcommand{\charisma}{CHA}
 
-% Check if either babel or polyglossia have been loaded,
-% in which case load the string captions
-\@ifpackageloaded{babel}{
-  \usepackage{lib/dndstrings-captions}
-}{}
-\@ifpackageloaded{polyglossia}{
-  \usepackage{lib/dndstrings-captions}
-}{}
+% saving throws
+\newcommand{\strengthsave}{STR$\diamondsuit$}
+\newcommand{\dexteritysave}{DEX$\diamondsuit$}
+\newcommand{\constitutionsave}{CON$\diamondsuit$}
+\newcommand{\intelligencesave}{INT$\diamondsuit$}
+\newcommand{\wisdomsave}{WIS$\diamondsuit$}
+\newcommand{\charismasave}{CHA$\diamondsuit$}
+
+% skills
+\newcommand{\acrobatics}{ACROBATICS (\dexterity)}
+\newcommand{\animalhandling}{ANIMAL HANDLING (\wisdom)}
+\newcommand{\arcana}{ARCANA (\intelligence)}
+\newcommand{\athletics}{ATHLETICS (\strength)}
+\newcommand{\deception}{DECEPTION (\charisma)}
+\newcommand{\history}{HISTORY (\intelligence)}
+\newcommand{\insight}{INSIGHT (\wisdom)}
+\newcommand{\intimidation}{INTIMIDATION (\charisma)}
+\newcommand{\investigation}{INVESTIGATION (\intelligence)}
+\newcommand{\medicine}{MEDICINE (\wisdom)}
+\newcommand{\nature}{NATURE (\intelligence)}
+\newcommand{\perception}{PERCEPTION (\wisdom)}
+\newcommand{\performance}{PERFORMANCE (\charisma)}
+\newcommand{\persuasion}{PERSUASION (\charisma)}
+\newcommand{\religion}{RELIGION (\intelligence)}
+\newcommand{\stealth}{STEALTH (\dexterity)}
+\newcommand{\survival}{SURVIVAL (\wisdom)}
+
