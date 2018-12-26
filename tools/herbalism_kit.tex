@@ -264,6 +264,11 @@ inventory.
 
 \subsubsection{Higher planes}
 
+\begin{dndtable}[XX][PhbLightGreen]
+\textbf{1d4} & \textbf{Ingredient} \\
+1 & \hyperref[addisons_blood]{Addison's Blood} \\
+\end{dndtable}
+
 \subsubsection{Lower planes}
 
 \begin{dndtable}[XX][PhbLightGreen]
@@ -274,8 +279,18 @@ inventory.
 
 \section{Recepies}
 
-Creation of items reqires nature check with proficiency on herbalism kit. On failed check 
-ingredients other than containers are destroyed.
+On failed creation check ingredients other than containers are destroyed.
+
+\subsubsection{Acid (vial)}
+\label{acid_vial}
+
+\begin{description}
+\item [DC] 14 \nature
+\item [Crafting time] 2 hours
+\item [Ingredients] \hyperref[acid_moss]{Acid moss}, glass vial
+\end{description}
+
+As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.
 
 \subsubsection{Atramen oil}
 \label{Atramen oil}
@@ -311,16 +326,17 @@ Powder that can be cooked into a meal for one person and grants 30 feet of darkv
 One flask worth of dye that can't be removed by non-magical means. 
 If left on skin for more than 2 days it becomes permanent tattoo.
 
-\subsubsection{Red powder}
-\label{Red powder}
+\subsubsection{Burn salve}
+\label{Burn salve}
 
 \begin{description}
-\item [DC] 15
-\item [Crafting time] 4 hours
-\item [Ingredients] \hyperref[Boomsrhoom]{Boomshrom pieces}
+\item [DC] 16
+\item [Crafting time] 3 hours
+\item [Ingredients] \hyperref[Musk Muddle]{Musk Muddle}
 \end{description}
 
-Bright red powder that explodes with radius of 5 feet when in contact with fire and deals \dice{1d8} fire damage (DC 18 DEX saving throw reduces to half).
+An oil that can be applied to burns as an action to imidiately heal all damage done by fire 
+during last round.
 
 \subsubsection{Cassil bitter tea}
 \label{Cassil bitter tea}
@@ -355,6 +371,16 @@ A piece of dry material that starts gloving as a lantern in contact with water. 
 
 Creates airtight flask that extinguishes all fires in radius of 5 feet when broken and knocks any creature of medium size or smaller in that area prone (DC 13 STR saving throw).
 
+\subsubsection{Concentrated wolve's milk}
+
+\begin{description}
+\item [DC] 13
+\item [Crafting time] 2 hours
+\item [Ingredients] Wolve's milk juice
+\end{description}
+
+Upon ingestion, you gain +2 constitution and -2 to initiative rolls for next hour.
+
 \subsubsection{Costbalm syrup}
 \label{Costbalm syrup}
 
@@ -378,39 +404,45 @@ A syrup that grants +2 to CON saves against poisons when ingested. Lasts until n
 A special knot that can be undone as part of any necromatic spell to rise DC / spell attack by one. Must be used when declaring attack. 
 Only one such knot can be used per spell cast. Item is spent when undone and can't be retied.
 
-\subsubsection{Exploding darkberry}
-\label{Exploding darkberry}
+\subsubsection{Dead pirate's elixir}
+\label{Dead pirate's elixir}
 
 \begin{description}
-\item [DC] 12
-\item [Crafting time] 0.5 hour
-\item [Ingredients] \hyperref[Darkberry]{Darkberry}
+\item [DC] 16
+\item [Crafting time] 3 hours
+\item [Ingredients] \hyperref[Sand vine]{Sand wine leaf}
 \end{description}
 
-Magically infused darkberry that explodes when crushed, creating darkness in 10 ft large cube.
+Allows creature to continue to fight even when on 0 HP. Creature still makes death saving throws as normal when on 0 HP. 
+Elixir lasts for 1 minute. If elexir ends or creature receives more than 10 hp in a single round, it drops 
+as normal.
 
-\subsubsection{Titan gum}
-\label{Titan gum}
+\subsubsection{Deeproot seedling}
+\label{Deeproot seedling}
 
 \begin{description}
 \item [DC] 12
 \item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Darkroot]{Darkroot sap}
+\item [Ingredients] \hyperref[Sussur]{Deeproot seedling}
 \end{description}
 
-A strong and fast-setting glue that bonds in one round and 
-requires a DC 20 STR check to remove. It can support 500 lb of weight.
+A small seed with a leaf growing out of it. 
+Damage from spells is reduced by \dice{1d4} while you have seedling on person. 
+Damage you deal with spells is also reduced by \dice{1d4}. 
+After 48 hours tree grows enough to be planted and start eating magic in radius. 
+If not planted, it dies.
 
-\subsubsection{Djin blossom roll}
-\label{Djin blossom roll}
+\subsubsection{Devil's soap}
+\label{Devil's soap}
 
 \begin{description}
-\item [DC] 10
-\item [Crafting time] 0.5 hour
-\item [Ingredients] \hyperref[Djin Blossom]{Djin blossom petal}
+\item [DC] 11
+\item [Crafting time] 1 hour
+\item [Ingredients] \hyperref[Stygian Pumpkin]{Stygian pumpkin}
 \end{description}
 
-When put into mouth grants immunity against inhaled poisons for 1 minute.
+A stinking black paste that grants fire resistance but lowers charisma by 5 (not less than 3)
+for 1 hour or until washed off.
 
 \subsubsection{Djin blossom parfume}
 
@@ -422,6 +454,28 @@ When put into mouth grants immunity against inhaled poisons for 1 minute.
 
 A parfume that grants advantage on all charisma-based ability checks for 24 hours.
 
+\subsubsection{Djin blossom roll}
+\label{Djin blossom roll}
+
+\begin{description}
+\item [DC] 10
+\item [Crafting time] 0.5 hour
+\item [Ingredients] \hyperref[Djin Blossom]{Djin blossom petal}
+\end{description}
+
+When held in mouth grants immunity against inhaled poisons for 1 minute.
+
+\subsubsection{Dragon brew}
+\label{Dragon brew}
+
+\begin{description}
+\item [DC] 13
+\item [Crafting time] 2 hours
+\item [Ingredients] \hyperref[Spotty Dragonfire]{Spotty dragonfire}
+\end{description}
+
+Grants +2 to \constitution for 1 hour.
+
 \subsubsection{Dragonseye oak accorn shell}
 \label{Dragonseye oak accorn shell}
 
@@ -432,6 +486,54 @@ A parfume that grants advantage on all charisma-based ability checks for 24 hour
 \end{description}
 
 Nietly carved Dragonseye oak accorn shell that can be crushed as part of any evocation spell to rise DC / spell attack by one.
+
+\subsubsection{Dried goldencup}
+\label{Dried goldencup}
+
+\begin{description}
+\item [DC] 8
+\item [Crafting time] 24 hours
+\item [Ingredients] \hyperref[Goldencup]{Goldencup}
+\end{description}
+
+You can do other things while drying Goldencup, only checking every now and then to see if it is drying well.
+ When eaten, dried goldencup causes euphoria, granting immunity against fear and 
+ disadvantage on all skill checks connected to intelligence.
+
+\subsubsection{Dried Lurden fruit}
+\label{Dried Lurden fruit}
+
+\begin{description}
+\item [DC] 12
+\item [Crafting time] 0.5 hour
+\item [Ingredients] \hyperref[Luurden]{Bloodfruit}
+\end{description}
+
+Creates dried chips that can be consumed as part of illusion spell to rise DC / spell attack by one.
+
+\subsubsection{Dried panaeolo leaf}
+\label{Dried panaeolo leaf}
+
+\begin{description}
+\item [DC] 8
+\item [Crafting time] 24 hours
+\item [Ingredients] \hyperref[Panaeolo]{Paneolo leaf}
+\end{description}
+
+You can do other things while drying panaeolo leaf, only checking every now and then to 
+see if it is drying well. Dried panaeolo leaf can be chewed on to add +1 to arcana checks for 1 minute.
+
+\subsubsection{Dried waterorb}
+\label{Dried waterorb}
+
+\begin{description}
+\item [DC] 8
+\item [Crafting time] 24 hours
+\item [Ingredients] \hyperref[Waterorb]{Waterorb}
+\end{description}
+
+You can do other things while drying Waterorb, only checking every now and then to see if it is drying well.
+ If burned grants creatures in 5 ft radius +2 on religion checks.
 
 \subsubsection{Dwarven oak syrup}
 \label{Dwarven oak syrup}
@@ -466,20 +568,16 @@ Removes any scarring it is applied to and heals \dice{1d4} damage.
 
 An oil that can be poured on a creature or object as a bonus action to make it fire resistant for 1 minute.
 
-\subsubsection{Translucent paint}
-\label{Translucent paint}
+\subsubsection{Exploding darkberry}
+\label{Exploding darkberry}
 
 \begin{description}
-\item [DC] 14
-\item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Entangle Weed]{Entangle weed}
+\item [DC] 12
+\item [Crafting time] 0.5 hour
+\item [Ingredients] \hyperref[Darkberry]{Darkberry}
 \end{description}
 
-A paint that renderes painted objects invisible. Creatures painted with it are also invisible, 
-but suffer \dice{1d6} poison damage at the beginning of their turn until they remove paint using action. 
-Contact with any liquid (like water and blood) removes the paint imidiately. 
-When undisturbed, paint can last for up to \dice{1d4} days. 
-Amount of paint created in one round is sufficient to paint any object under 2 cubic feet invisible.
+Magically infused darkberry that explodes when crushed, creating darkness in 10 ft large cube.
 
 \subsubsection{Fesul parfume}
 \label{Fesul parfume}
@@ -492,16 +590,17 @@ Amount of paint created in one round is sufficient to paint any object under 2 c
 
 A parfume that grants +2 on persuasion and performance checks for 2 hours.
 
-\subsubsection{Fey cherry tea}
-\label{Fey cherry tea}
+\subsubsection{Fever cloth}
+\label{Fever cloth}
 
 \begin{description}
-\item [DC] 13
+\item [DC] 12
 \item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Fey cherry]{Fey cherry flower}
+\item [Ingredients] \hyperref[Fleshshiver]{Fleshshiver}
 \end{description}
 
-A tea that grants advantage on saving throws against charm, fear and posion for one hour. 
+A fluid that can be poured onto cloth. If that cloth is put onto a sick creature for one hour
+ all but the most stubborn illnesses are removed from the body. Evaporates in one hour.
 
 \subsubsection{Fey cherry juice}
 \label{Fey cherry juice}
@@ -513,6 +612,17 @@ A tea that grants advantage on saving throws against charm, fear and posion for 
 \end{description}
 
 A juice that grants protection from evil and good for 10 minutes.
+
+\subsubsection{Fey cherry tea}
+\label{Fey cherry tea}
+
+\begin{description}
+\item [DC] 13
+\item [Crafting time] 2 hours
+\item [Ingredients] \hyperref[Fey cherry]{Fey cherry flower}
+\end{description}
+
+A tea that grants advantage on saving throws against charm, fear and posion for one hour. 
 
 \subsubsection{Fire lichen sauce}
 \label{Fire lichen sauce}
@@ -534,31 +644,31 @@ Extremely hot sauce that requires DC 14 CON save to eat.
 \item [Ingredients] \hyperref[Fire lichen]{Fire lichen}
 \end{description}
 
-A flask of extremely strong liquor that suffices to make large sized creature (or 2-3 medium sized ones)drunk.
+A flask of extremely strong liquor that suffices to make large sized creature (or 2-3 medium sized ones) drunk.
 
-\subsubsection{Vampire bane}
-\label{Vampire bane}
+\subsubsection{Frost Lotion}
+\label{Frost Lotion}
 
 \begin{description}
-\item [DC] 14
+\item [DC] 16
 \item [Crafting time] 3 hours
-\item [Ingredients] \hyperref[Flame clove]{Flame clove bulb}
+\item [Ingredients] \hyperref[Tyrant's Sword]{Tyrant's sword}
 \end{description}
 
-An oil that can be applied to weapons. Deals \dice{3d8} poison damage to vampires upon contact and 
-\dice{1d8} to non vampires (DC 16 CON save reduces to half). Single use, fades in one hour if not used.
+An oil that can be applied to frostbite as an action to imidiately heal all damage done by ice 
+during last round.
 
-\subsubsection{Fever cloth}
-\label{Fever cloth}
+\subsubsection{Gash glue}
+\label{Gash glue}
 
 \begin{description}
 \item [DC] 12
-\item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Fleshshiver]{Fleshshiver}
+\item [Crafting time] 1 hour
+\item [Ingredients] \hyperref[Old Man's Friend]{Old man's friend's leaves}
 \end{description}
 
-A fluid that can be poured onto cloth. If that cloth is put onto a sick creature for one hour
- all but the most stubborn illnesses are removed from the body. Evaporates in one hour.
+A sticky oily substance that imidiately stabilises the creature when poured on its forehead. 
+Often found in medicine kits.
 
 \subsubsection{Glowvine torch}
 \label{Glowvine torch}
@@ -607,19 +717,6 @@ A parfume that causes any creature within 10 feet of you, able to smell you, to 
  saving throw or be charmed by you. They can repeat saving throw if they receive any damage by you 
  or your ally. Charm ends when they start their turn more than 10 feet away. Parfume lasts for an hour.
 
-\subsubsection{Dried goldencup}
-\label{Dried goldencup}
-
-\begin{description}
-\item [DC] 8
-\item [Crafting time] 24 hours
-\item [Ingredients] \hyperref[Goldencup]{Goldencup}
-\end{description}
-
-You can do other things while drying Goldencup, only checking every now and then to see if it is drying well.
- When eaten, dried goldencup causes euphoria, granting immunity against fear and 
- disadvantage on all skill checks connected to intelligence.
-
 \subsubsection{Green air bramble bracelet}
 \label{Green air bramble bracelet}
 
@@ -644,18 +741,6 @@ Bracelet has 10 uses, after that it is destroyed. You can not choose not to use 
 
 Thick liquid that has \poison\poison\poison\poison
 
-\subsubsection{Shinewater}
-\label{Shinewater}
-
-\begin{description}
-\item [DC] 12
-\item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Halfling Thistle]{Halfling thistle}
-\end{description}
-
-If left to soak over night, one dose of shinewater removes all the rust and corrosion 
-from medium sized weapon.
-
 \subsubsection{Hathil ooze}
 \label{Hathil ooze}
 
@@ -667,16 +752,24 @@ from medium sized weapon.
 
 Jelly ooze that can be consumed as part of transmutation spell to rise DC / spell attack by one.
 
-\subsubsection{Infused healing apple}
-\label{Infused healing apple}
+\subsubsection{Healing potion}
+\label{healing_potion}
 
 \begin{description}
-\item [DC] 12
-\item [Crafting time] 0.5 hour
-\item [Ingredients] \hyperref[Healing Apple Tree]{Healing apple}
+\item [DC] \medicine
+\item [Ingredients] \hyperref[addisons_blood]{Addison's Blood}, \hyperref[Healing Apple Tree]{Healing apple}
 \end{description}
 
-Infuses Healing apple with more magic. Eating infused healing apple heals for \dice{1d4}.
+\begin{dndtable}[XXXXX][PhbLightGreen]
+\textbf{Size} & \textbf{HP} & \textbf{DC} & \textbf{Time} & \textbf{Ingridients} \\
+Minor & \dice{1d4+1} & 12 & 1 hour & 1 \\
+Regular & \dice{2d4+2} & 14 & 2 hours & 2 \\
+Greater & \dice{4d4+4} & 16 & 4 hours & 3 \\
+Superior & \dice{8d4+8} & 18 & 8 hours & 4 \\
+Supreme & \dice{10d4+20} & 20 & 16 hours & 5 \\
+\end{dndtable}
+
+You regain hit points when you drink this potion. The number of hit points depends on the potion's potency. Whatever its potency, the potion's red liquid glimmers when agitated. 
 
 \subsubsection{Helmthorn paste}
 \label{Helmthorn paste}
@@ -711,6 +804,27 @@ A tea that removes any need for food for a week.
 
 A blue liquid that grants the ice walking ability of white dragons for 10 minutes.
 
+\subsubsection{Infused healing apple}
+\label{Infused healing apple}
+
+\begin{description}
+\item [DC] 12
+\item [Crafting time] 0.5 hour
+\item [Ingredients] \hyperref[Healing Apple Tree]{Healing apple}
+\end{description}
+
+Infuses Healing apple with more magic. Eating infused healing apple heals for \dice{1d4}.
+
+\subsubsection{Journeyman serum}
+
+\begin{description}
+\item [DC] 12
+\item [Crafting time] 2 hours
+\item [Ingredients] \hyperref[Wolfweed]{Wolfweed}
+\end{description}
+
+Allows creature to march at fast pace for 12 hours in a day without receiving point of exhaustion.
+
 \subsubsection{Kieros incense}
 \label{Kieros incense}
 
@@ -721,17 +835,6 @@ A blue liquid that grants the ice walking ability of white dragons for 10 minute
 \end{description}
 
 An incense that can be consumed as part of necromatic spell to rise DC / spell attack by one.
-
-\subsubsection{Lustri blossom oil}
-\label{Lustri blossom oil}
-
-\begin{description}
-\item [DC] 16
-\item [Crafting time] 4 hours
-\item [Ingredients] \hyperref[Kiss of Discord]{Kiss of discord blossom}
-\end{description}
-
-A poison that can be applied to weapons. Target must pass DC 16 CON save on hit or be blinded for 1 minute.
 
 \subsubsection{Lakeleaf powder}
 \label{Lakeleaf powder}
@@ -744,41 +847,27 @@ A poison that can be applied to weapons. Target must pass DC 16 CON save on hit 
 
 A powder that can be consumed as part of abjuration spell to rise DC / spell attack by one.
 
-\subsubsection{Roasted lish nut}
-\label{Roasted lish nut}
+\subsubsection{Lover's tea}
+\label{Lover's tea}
 
 \begin{description}
 \item [DC] 10
-\item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Lish]{Lish nut}
+\item [Crafting time] 0.5 hour
+\item [Ingredients] \hyperref[Nararoot]{Nararoot roots}
 \end{description}
 
-Eating roasted lish nut provides protection from insects and vermin for one hour. 
-Creatures of those types must make DC 13 WIS saving throw to come closer than 15 ft from you.
+A tea that supresses female fartility for \dice{1d4} days upon drinking.
 
-\subsubsection{Preserved lifewood thistle}
-\label{Preserved lifewood thistle}
+\subsubsection{Lustri blossom oil}
+\label{Lustri blossom oil}
 
 \begin{description}
 \item [DC] 16
-\item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Lifewood]{Lifewood thistle}
+\item [Crafting time] 4 hours
+\item [Ingredients] \hyperref[Kiss of Discord]{Kiss of discord blossom}
 \end{description}
 
-A preserved thistle that you can break as a bonus action to activate. 
-When broken and on your person it heals 1 health point per turn for one minute 
-as long as you are not incapacitated. After one minute its magic fades.
-
-\subsubsection{Dried Lurden fruit}
-\label{Dried Lurden fruit}
-
-\begin{description}
-\item [DC] 12
-\item [Crafting time] 0.5 hour
-\item [Ingredients] \hyperref[Luurden]{Bloodfruit}
-\end{description}
-
-Creates dried chips that can be consumed as part of illusion spell to rise DC / spell attack by one.
+A poison that can be applied to weapons. Target must pass DC 16 CON save on hit or be blinded for 1 minute.
 
 \subsubsection{Masthin scent}
 \label{Masthin scent}
@@ -792,59 +881,39 @@ Creates dried chips that can be consumed as part of illusion spell to rise DC / 
 Can be sprayed on body to grant wearer +2 to animal handling and intimidation 
 but -2 on persuasion and performance for 24 hours.
 
-\subsubsection{White sanguine}
-\label{White sanguine}
+\subsubsection{Memorybind}
+\label{Memorybind}
 
 \begin{description}
-\item [DC] 16
-\item [Crafting time] 4 hours
-\item [Ingredients] \hyperref[Meadow Giant]{Meadow giant's stem}
+\item [DC] 13
+\item [Crafting time] 2 hours
+\item [Ingredients] \hyperref[Pixie table]{Pixie table}
 \end{description}
 
-An injury poison that prevents coagulation. Creature affected by the poison bleeds 
-1 HP per round for 5 minutes. DC 20 CON save on injury prevents poison entry in the body. 
-Any magical healing disintegrates poison and stops its effect.
+A thick lavender color liquid that grants additional level 1 prepared spell when consumed. Lasts until next rest.
 
-\subsubsection{White angel}
-\label{White angel}
-
-\begin{description}
-\item [DC] 16
-\item [Crafting time] 4 hours
-\item [Ingredients] \hyperref[Mordayn]{Mordayn leaf}
-\end{description}
-
-A very addictive drug that causes euphoria and halucinations after inhailing. 
-Creatures under effect of white angel have imunity to fear, advantage on performance checks and disadvantage
- on all intelligence based skills and saving throws. 
- After 2 hours exhaustion phase sets in and creature suffers -5 on dexterity and strength 
- until next long rest. If creature can't get another dose of white angel in 24 hours they must make 
- DC 14 CON save. On 3 successful saves addiction is broken. 
- On failed save you gain level of exhaustion that can not be healed until you get next dose 
- of white angel or break addiction.
-
-\subsubsection{Tea of berserker}
-\label{Tea of berserker}
-
-\begin{description}
-\item [DC] 12
-\item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Mule Pollen]{Mule pollen}
-\end{description}
-
-Grants +1 on STR, DEX and CON for one hour and -1 on INT, WIS and CHA. The effect can not be stacked.
-
-\subsubsection{Burn salve}
-\label{Burn salve}
+\subsubsection{Mindfire}
+\label{Mindfire}
 
 \begin{description}
 \item [DC] 16
 \item [Crafting time] 3 hours
-\item [Ingredients] \hyperref[Musk Muddle]{Musk Muddle}
+\item [Ingredients] \hyperref[Wild Fireclover]{Wild fireclower}
 \end{description}
 
-An oil that can be applied to burns as an action to imidiately heal all damage done by fire 
-during last round.
+Acts as ingested poison. Creature under influence of a poison must succeed DC 15 WIS 
+saving throw every time it tries to cast spell for one hour.
+
+\subsubsection{Mist of Pelor}
+\label{Mist of Pelor}
+
+\begin{description}
+\item [DC] 14
+\item [Crafting time] 2 hour
+\item [Ingredients] \hyperref[Sunflower of Pelor]{Sunflower of Pelor}
+\end{description}
+
+When sparkled on undead creatures deals \dice{2d6} radiant damage.
 
 \subsubsection{Nahre lotus bottle}
 \label{Nahre lotus bottle}
@@ -856,29 +925,6 @@ during last round.
 \end{description}
 
 A bottle containing preserved Nahre lotus flower. The bottle fills itself with water every 8 hours.
-
-\subsubsection{Lover's tea}
-\label{Lover's tea}
-
-\begin{description}
-\item [DC] 10
-\item [Crafting time] 0.5 hour
-\item [Ingredients] \hyperref[Nararoot]{Nararoot roots}
-\end{description}
-
-A tea that supresses female fartility for \dice{1d4} days upon drinking.
-
-\subsubsection{Gash glue}
-\label{Gash glue}
-
-\begin{description}
-\item [DC] 12
-\item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Old Man's Friend]{Old man's friend's leaves}
-\end{description}
-
-A sticky oily substance that imidiately stabilises the creature when poured on its forehead. 
-Often found in medicine kits.
 
 \subsubsection{Night venom}
 \label{Night venom}
@@ -893,29 +939,6 @@ An ingested poison that causes creature to fall asleep for 12 hours (DC 16 CON s
 If creature has at least one level of exhaustion it fails automatically. 
 If creature receives damage while asleep it wakes up normally.
 
-\subsubsection{Dried panaeolo leaf}
-\label{Dried panaeolo leaf}
-
-\begin{description}
-\item [DC] 8
-\item [Crafting time] 24 hours
-\item [Ingredients] \hyperref[Panaeolo]{Paneolo leaf}
-\end{description}
-
-You can do other things while drying panaeolo leaf, only checking every now and then to 
-see if it is drying well. Dried panaeolo leaf can be chewed on to add +1 to arcana checks for 1 minute.
-
-\subsubsection{Memorybind}
-\label{Memorybind}
-
-\begin{description}
-\item [DC] 13
-\item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Pixie table]{Pixie table}
-\end{description}
-
-A thick lavender color liquid that grants additional level 1 prepared spell when consumed. Lasts until next rest.
-
 \subsubsection{Pomow syrup}
 \label{Pomow syrup}
 
@@ -928,27 +951,18 @@ A thick lavender color liquid that grants additional level 1 prepared spell when
 A thick, sweet liquid that feeds medium sized creature for a day and prevents freezing 
 due to environment for 1 hour.
 
-\subsubsection{Concentrated wolve's milk}
+\subsubsection{Preserved lifewood thistle}
+\label{Preserved lifewood thistle}
 
 \begin{description}
-\item [DC] 13
+\item [DC] 16
 \item [Crafting time] 2 hours
-\item [Ingredients] Wolve's milk juice
+\item [Ingredients] \hyperref[Lifewood]{Lifewood thistle}
 \end{description}
 
-Upon ingestion, you gain +2 constitution and -2 to initiative rolls for next hour.
-
-\subsubsection{Senses}
-\label{Senses}
-
-\begin{description}
-\item [DC] 11
-\item [Crafting time] 0.5 hour
-\item [Ingredients] Prickly tea leaf
-\end{description}
-
-A terribly tasting tea that takes DC 12 CON save to swallow. 
-It grants advantage on perception and investigation checks until next short rest.
+A preserved thistle that you can break as a bonus action to activate. 
+When broken and on your person it heals 1 health point per turn for one minute 
+as long as you are not incapacitated. After one minute its magic fades.
 
 \subsubsection{Reath knot}
 \label{Reath knot}
@@ -972,6 +986,17 @@ A knot that can be untied as part of conjuration spell to rise DC / spell attack
 
 A red dust that doubles movement speed for one minute when ingested, but causes 1 point of exhaustion.
 
+\subsubsection{Red powder}
+\label{Red powder}
+
+\begin{description}
+\item [DC] 15
+\item [Crafting time] 4 hours
+\item [Ingredients] \hyperref[Boomsrhoom]{Boomshrom pieces}
+\end{description}
+
+Bright red powder that explodes with radius of 5 feet when in contact with fire and deals \dice{1d8} fire damage (DC 18 DEX saving throw reduces to half).
+
 \subsubsection{Ripplebark soup}
 
 \begin{description}
@@ -993,6 +1018,18 @@ Warm soup that grants advantage on acrobatics checks for 1 hour after consumptio
 
 Creates tea that when consumed as a bonus action grants ability to fly for 1 minute.
 
+\subsubsection{Roasted lish nut}
+\label{Roasted lish nut}
+
+\begin{description}
+\item [DC] 10
+\item [Crafting time] 1 hour
+\item [Ingredients] \hyperref[Lish]{Lish nut}
+\end{description}
+
+Eating roasted lish nut provides protection from insects and vermin for one hour. 
+Creatures of those types must make DC 13 WIS saving throw to come closer than 15 ft from you.
+
 \subsubsection{Salamander's tongue}
 \label{Salamander's tongue}
 
@@ -1005,29 +1042,17 @@ Creates tea that when consumed as a bonus action grants ability to fly for 1 min
 Creates small orange piece that looks like a snake tongue. 
 Can be burned as part of evocation spell to rise DC / spell attack by one.
 
-\subsubsection{Dead pirate's elixir}
-\label{Dead pirate's elixir}
+\subsubsection{Senses}
+\label{Senses}
 
 \begin{description}
-\item [DC] 16
-\item [Crafting time] 3 hours
-\item [Ingredients] \hyperref[Sand vine]{Sand wine leaf}
-\end{description}
-
-Allows creature to continue to fight even when on 0 HP. Creature still makes death saving throws as normal when on 0 HP. 
-Elixir lasts for 1 minute. If elexir ends or creature receives more than 10 hp in a single round, it drops 
-as normal.
-
-\subsubsection{Water of future}
-\label{Water of future}
-
-\begin{description}
-\item [DC] 12
+\item [DC] 11
 \item [Crafting time] 0.5 hour
-\item [Ingredients] \hyperref[Scholar's dream]{Scholar's dream flower}
+\item [Ingredients] Prickly tea leaf
 \end{description}
 
-Creates pure looking water that can be drunk as part of divination spell to rise DC / spell attack by one.
+A terribly tasting tea that takes DC 12 CON save to swallow. 
+It grants advantage on perception and investigation checks until next short rest.
 
 \subsubsection{Serren wood incense}
 \label{Serren wood incense}
@@ -1053,6 +1078,18 @@ A flask containing black liquid. When broken, releases dark black smoke in radiu
 Every creature in smoke gets -2 on all wisdom saving throws and is blinded as long as it is in radius 
 and is considered invisible to creatures outside of it. Smoke lasts for 10 minutes.
 
+\subsubsection{Shinewater}
+\label{Shinewater}
+
+\begin{description}
+\item [DC] 12
+\item [Crafting time] 1 hour
+\item [Ingredients] \hyperref[Halfling Thistle]{Halfling thistle}
+\end{description}
+
+If left to soak over night, one dose of shinewater removes all the rust and corrosion 
+from medium sized weapon.
+
 \subsubsection{Sky lotus extract}
 \label{Sky lotus extract}
 
@@ -1076,18 +1113,19 @@ An oil that grants 10 minutes of water breathing upon ingestion.
 Acts as an inhaled poison with 5 ft radius. Target must make DC 12 CON save or 
 fall asleep for one minute or until it receives damage.
 
-\subsubsection{Tears of false death}
-\label{Tears of false death}
+\subsubsection{Smokestick}
+\label{Smokestick}
 
 \begin{description}
-\item [DC] 15
-\item [Crafting time] 4 hours
-\item [Ingredients] \hyperref[Slumberweed]{Slumberweed leaf}
+\item [DC] 14
+\item [Crafting time] 3 hours
+\item [Ingredients] \hyperref[Witchweed]{Witchweed}
 \end{description}
 
-A small amount of waterlike liquid that when drank causes creature to appear dead for 
-8 hours (DC 12 CON save if unwilling, wakes up on any damage received). 
-It requires DC 20 medicine check to see through false death.
+Creates a stick of green material that can be burned and thrown. It emits light blue smoke 
+(no concielment) in 10 ft radius. Casters in that area are forced to make DC 18 concentration check 
+or they lose any spell they are concentrating on. 
+Smoke remains on field for 1 minute and forces concentration check on any creature entering or staying in that area.
 
 \subsubsection{Snow oil}
 \label{Snow oil}
@@ -1101,17 +1139,6 @@ It requires DC 20 medicine check to see through false death.
 An always cold oil. If poured onto body as an action grants 1 hour of fire resistance. 
 If no fire damage is received during that hour you suffer \dice{1d6} cold damage.
 
-\subsubsection{Dragon brew}
-\label{Dragon brew}
-
-\begin{description}
-\item [DC] 13
-\item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Spotty Dragonfire]{Spotty dragonfire}
-\end{description}
-
-Grants +1 on constitution checks and saving throws for 1 hour.
-
 \subsubsection{Stone cookie}
 \label{Stone cookie}
 
@@ -1123,43 +1150,30 @@ Grants +1 on constitution checks and saving throws for 1 hour.
 
 Doubles the amount of time you can hold breath for 24 hours.
 
-\subsubsection{Devil's soap}
-\label{Devil's soap}
 
-\begin{description}
-\item [DC] 11
-\item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Stygian Pumpkin]{Stygian pumpkin}
-\end{description}
-
-A stinking black paste that grants fire resistance but lowers charisma by 5 (not less than 3)
-for 1 hour or until washed off.
-
-\subsubsection{Mist of Pelor}
-\label{Mist of Pelor}
-
-\begin{description}
-\item [DC] 14
-\item [Crafting time] 2 hour
-\item [Ingredients] \hyperref[Sunflower of Pelor]{Sunflower of Pelor}
-\end{description}
-
-When sparkled on undead creatures deals \dice{2d6} radiant damage.
-
-\subsubsection{Deeproot seedling}
-\label{Deeproot seedling}
+\subsubsection{Tea of berserker}
+\label{Tea of berserker}
 
 \begin{description}
 \item [DC] 12
 \item [Crafting time] 1 hour
-\item [Ingredients] \hyperref[Sussur]{Deeproot seedling}
+\item [Ingredients] \hyperref[Mule Pollen]{Mule pollen}
 \end{description}
 
-A small seed with a leaf growing out of it. 
-Damage from spells is reduced by \dice{1d4} while you have seedling on person. 
-Damage you deal with spells is also reduced by \dice{1d4}. 
-After 48 hours tree grows enough to be planted and start eating magic in radius. 
-If not planted, it dies.
+Grants +1 on STR, DEX and CON for one hour and -1 on INT, WIS and CHA. The effect can not be stacked.
+
+\subsubsection{Tears of false death}
+\label{Tears of false death}
+
+\begin{description}
+\item [DC] 15
+\item [Crafting time] 4 hours
+\item [Ingredients] \hyperref[Slumberweed]{Slumberweed leaf}
+\end{description}
+
+A small amount of waterlike liquid that when drank causes creature to appear dead for 
+8 hours (DC 12 CON save if unwilling, wakes up on any damage received). 
+It requires DC 20 medicine check to see through false death.
 
 \subsubsection{Tekkil pill}
 \label{Tekkil pill}
@@ -1185,6 +1199,33 @@ Causes -2 to initiative throws.
 
 If eaten during short rest grants \dice{1d6} HP and counts as a meal.
 
+\subsubsection{Titan gum}
+\label{Titan gum}
+
+\begin{description}
+\item [DC] 12
+\item [Crafting time] 1 hour
+\item [Ingredients] \hyperref[Darkroot]{Darkroot sap}
+\end{description}
+
+A strong and fast-setting glue that bonds in one round and 
+requires a DC 20 STR check to remove. It can support 500 lb of weight.
+
+\subsubsection{Translucent paint}
+\label{Translucent paint}
+
+\begin{description}
+\item [DC] 14
+\item [Crafting time] 2 hours
+\item [Ingredients] \hyperref[Entangle Weed]{Entangle weed}
+\end{description}
+
+A paint that renderes painted objects invisible. Creatures painted with it are also invisible, 
+but suffer \dice{1d6} poison damage at the beginning of their turn until they remove paint using action. 
+Contact with any liquid (like water and blood) removes the paint imidiately. 
+When undisturbed, paint can last for up to \dice{1d4} days. 
+Amount of paint created in one round is sufficient to paint any object under 2 cubic feet invisible.
+
 \subsubsection{Twilight dreams}
 \label{Twilight dreams}
 
@@ -1196,17 +1237,17 @@ If eaten during short rest grants \dice{1d6} HP and counts as a meal.
 
 Purple powder that can be consumed as part of enchantment spell to rise DC / spell attack by one.
 
-\subsubsection{Frost Lotion}
-\label{Frost Lotion}
+\subsubsection{Vampire bane}
+\label{Vampire bane}
 
 \begin{description}
-\item [DC] 16
+\item [DC] 14
 \item [Crafting time] 3 hours
-\item [Ingredients] \hyperref[Tyrant's Sword]{Tyrant's sword}
+\item [Ingredients] \hyperref[Flame clove]{Flame clove bulb}
 \end{description}
 
-An oil that can be applied to frostbite as an action to imidiately heal all damage done by ice 
-during last round.
+An oil that can be applied to weapons. Deals \dice{3d8} poison damage to vampires upon contact and 
+\dice{1d8} to non vampires (DC 16 CON save reduces to half). Single use, fades in one hour if not used.
 
 \subsubsection{Visma Paste}
 \label{Visma Paste}
@@ -1231,43 +1272,46 @@ Grants one hour of protection from environmental heat.
 Creates powder that grants + 2 to intimidation and immunity to fear when consumed. 
 Creatures have advantage on attacks against you. Vodare madness lasts for 1 minute.
 
-\subsubsection{Dried waterorb}
-\label{Dried waterorb}
+\subsubsection{Water of future}
+\label{Water of future}
 
 \begin{description}
-\item [DC] 8
-\item [Crafting time] 24 hours
-\item [Ingredients] \hyperref[Waterorb]{Waterorb}
+\item [DC] 12
+\item [Crafting time] 0.5 hour
+\item [Ingredients] \hyperref[Scholar's dream]{Scholar's dream flower}
 \end{description}
 
-You can do other things while drying Waterorb, only checking every now and then to see if it is drying well.
- If burned grants creatures in 5 ft radius +2 on religion checks.
+Creates pure looking water that can be drunk as part of divination spell to rise DC / spell attack by one.
 
-\subsubsection{Mindfire}
-\label{Mindfire}
+\subsubsection{White angel}
+\label{White angel}
 
 \begin{description}
 \item [DC] 16
-\item [Crafting time] 3 hours
-\item [Ingredients] \hyperref[Wild Fireclover]{Wild fireclower}
+\item [Crafting time] 4 hours
+\item [Ingredients] \hyperref[Mordayn]{Mordayn leaf}
 \end{description}
 
-Acts as ingested poison. Creature under influence of a poison must succeed DC 15 WIS 
-saving throw every time it tries to cast spell for one hour.
+A very addictive drug that causes euphoria and halucinations after inhailing. 
+Creatures under effect of white angel have imunity to fear, advantage on performance checks and disadvantage
+ on all intelligence based skills and saving throws. 
+ After 2 hours exhaustion phase sets in and creature suffers -5 on dexterity and strength 
+ until next long rest. If creature can't get another dose of white angel in 24 hours they must make 
+ DC 14 CON save. On 3 successful saves addiction is broken. 
+ On failed save you gain level of exhaustion that can not be healed until you get next dose of white angel or break addiction.
 
-\subsubsection{Smokestick}
-\label{Smokestick}
+\subsubsection{White sanguine}
+\label{White sanguine}
 
 \begin{description}
-\item [DC] 14
-\item [Crafting time] 3 hours
-\item [Ingredients] \hyperref[Witchweed]{Witchweed}
+\item [DC] 16
+\item [Crafting time] 4 hours
+\item [Ingredients] \hyperref[Meadow Giant]{Meadow giant's stem}
 \end{description}
 
-Creates a stick of green material that can be burned and thrown. It emits light blue smoke 
-(no concielment) in 10 ft radius. Casters in that area are forced to make DC 18 concentration check 
-or they lose any spell they are concentrating on. 
-Smoke remains on field for 1 minute and forces concentration check on any creature entering or staying in that area.
+An injury poison that prevents coagulation. Creature affected by the poison bleeds 
+1 HP per round for 5 minutes. DC 20 CON save on injury prevents poison entry in the body. 
+Any magical healing disintegrates poison and stops its effect.
 
 \subsubsection{Wittlewort brew}
 \label{Wittlewort brew}
@@ -1291,13 +1335,3 @@ If consumed by a creature affected by enchantement spell, grants another save th
 
 If eaten by a creature less then an hour after it was affected by lycanthropy it shrugs off 
 the affliction and suffers \dice{1d6} poison damage.
-
-\subsubsection{Journeyman serum}
-
-\begin{description}
-\item [DC] 12
-\item [Crafting time] 2 hours
-\item [Ingredients] \hyperref[Wolfweed]{Wolfweed}
-\end{description}
-
-Allows creature to march at fast pace for 12 hours in a day without receiving point of exhaustion.
